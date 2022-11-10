@@ -1,0 +1,75 @@
+{
+    "experiences": [
+       
+        {
+            "id": "1",
+            "title": "Research Software Engineer - Linked Data",
+            "org": "University of Oxford",
+            "start": "2021-09",
+            "end": "Present",
+            "description": [
+                "Working on the Linked Art II project, working with partners in museums and galleries to develop Linked Art 'exemplars', and to implement some of these as proof of concept software implementations.",
+                "Working with a range of digital scholars to contribute to the creation and delivery of new research projects. Working with scholars from different departments and Divisions across the University, as well as developers and practitioners from the Gardens, Libraries and Museums.",
+                "Working on the first stages of research project development as well as building finished products for major funded research projects.",
+                "Speaker at Digital Humanities Summer School at Oxford 2022 http: //www.dhoxss.net/"
+            ],
+            "skills": [
+                "Linked Data",
+                "JSON-LD",
+                "Data reconciliation and transformation ",
+                "Data visualisation, D3.js, Pandas",
+                "Data workflow",
+                "Jupyter notebooks",
+                "Python, React, Next.js, API, XML, CSV, JSON"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Web Support Analyst",
+            "org": "Montala Limited",
+            "start": "2019",
+            "end": "2021",
+            "description": [
+                "Dealing with issues and questions logged by customers.",
+                "Fixing bugs in the software base code.",
+                "Developing new features and fixing bugs in the software base code.",
+                "Testing code and writing automated tests.",
+                "Reviewing code changes from other software engineers."
+            ],
+            "skills": [
+                "PHP",
+                "Basic administration of LAMP stack",
+                "Linux skills",
+                "MySQL",
+                "HTML, CSS, Javascript, jQuery"
+            ]
+        },
+
+        {
+            "id": "3",
+            "title": "Software Engineer",
+            "org": "The Bodleian Libraries, University of Oxford",
+            "start": "2013",
+            "end": "2016",
+            "description": [
+                "Software development role in varied projects concerning the libraries’ digital collections.",
+                "Development of proposal for a unified data model for the department’s digital collections.",
+               "Data modelling",
+                "Development of RDF vocabulary for the Ballads Online project.",
+                "Speaker at the Oxford Digital Humanities Summer School in 2014/5."
+
+
+            ],
+            "skills": ["Linked data", "RDF, RDFS, OWL, SKOS", "PHP, MySQL, Python", "Data modelling"]
+        }
+
+    ]
+}
+
+
+
+
+ 
+
+
+
