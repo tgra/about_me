@@ -1,17 +1,18 @@
 import { ExperienceData } from '../types/experiencedata'
 
 
-
 export default function Experience({ id, title, org, start, end, description, skills }: ExperienceData) {
 
   return (
 
-    <div key={id}>
+    
+    <div key={id} className="experience">
+      <hr/>
       <h4>{title} - {org} ({start} - {end})</h4>
      <div>
        
         {description.map((sentence: any) => (
-          <p>{sentence}</p>
+          <p className="desc">- {sentence}</p>
         )) }
 </div>
         <h6>Skills</h6>
@@ -21,6 +22,7 @@ export default function Experience({ id, title, org, start, end, description, sk
           ))
           }
         </ul>
+        <hr/>
       </div>
       
       )

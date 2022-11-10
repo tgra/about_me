@@ -53,10 +53,14 @@ const IndexPage: NextPage<ExperienceDataListProps> = ({
         <Row>
           <Col><b>Email</b></Col>
           <Col><b>Location</b></Col>
+          <Col><b>Orcid ID</b></Col>
+          <Col><b>GitHub</b></Col>
         </Row>
         <Row>
           <Col><a href="mailto:tgratgra@gmail.com">tgratgra@gmail.com</a></Col>
           <Col>North Wiltshire, England, UK</Col>
+          <Col><a href="https://orcid.org/0000-0003-1561-7364">https://orcid.org/0000-0003-1561-7364</a></Col>
+          <Col> <a href="https://github.com/tgra">https://github.com/tgra</a> <a href="https://tgra.github.io/about_me/">https://tgra.github.io/about_me/</a></Col>
         </Row>
       <br/>
       <hr/>
@@ -98,7 +102,7 @@ Digital Humanities, including TEI P5, IIIF, VIAF, METS/MODS, CIDOC-CRM, and BIBF
 
 {
   experienceDataList.map((ex: ExperienceData) => (
-  <Experience {...ex} key={ex.id} />
+  <div><Experience {...ex} key={ex.id} /></div>
   
   ))
   }
@@ -108,8 +112,21 @@ Digital Humanities, including TEI P5, IIIF, VIAF, METS/MODS, CIDOC-CRM, and BIBF
 
 
 <h2>Education</h2>
+<div>
+<div  className="education">
+      <hr/>
+      <h5>Bioinformatics M.Sc., University of Exeter, 2002</h5>
+      <p>Included 6-month research project at Dutch pharmaceutical company.</p>
+      <hr/>
+      </div>
+      <div  className="education">
+      <hr/>
+      <h5>Zoology B.Sc., University of London, 1993</h5>
+      <hr/>
+      </div>
 
-<h2>Publications</h2>  
+      </div>
+
 
 
 

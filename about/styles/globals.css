@@ -27,3 +27,11 @@ a {
   }
 }
 */
+
+.experience, .education {
+ background-color: whitesmoke;
+}
+
+.desc {
+  color:brown
+}
