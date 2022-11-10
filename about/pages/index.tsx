@@ -8,7 +8,6 @@ import { ExperienceData, ExperienceDataListProps, ExperienceDataProps } from '..
 import Experience from "../components/experience"
 import { GetStaticProps, NextPage } from 'next'
 
-import Accordion from 'react-bootstrap/Accordion';
 
 import { GetExperiences } from '../lib/data_api'
 
@@ -96,7 +95,6 @@ Digital Humanities, including TEI P5, IIIF, VIAF, METS/MODS, CIDOC-CRM, and BIBF
        
 <h2>Work Experience</h2>
 
-<Accordion defaultActiveKey="0">
 
 {
   experienceDataList.map((ex: ExperienceData) => (
@@ -105,7 +103,6 @@ Digital Humanities, including TEI P5, IIIF, VIAF, METS/MODS, CIDOC-CRM, and BIBF
   ))
   }
 
-</Accordion>
 
 
 

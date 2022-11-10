@@ -5,6 +5,7 @@ export interface ExperienceData {
     end?:string
     description:any[]
     skills:any[]
+    org:string
   
   }
   

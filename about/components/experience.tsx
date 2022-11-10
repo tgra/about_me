@@ -1,19 +1,19 @@
 import { ExperienceData } from '../types/experiencedata'
-import Accordion from 'react-bootstrap/Accordion';
+
 
 
 export default function Experience({ id, title, org, start, end, description, skills }: ExperienceData) {
 
   return (
 
-    <Accordion.Item eventKey={id}>
-      <Accordion.Header>{title} - {org} ({start} - {end})</Accordion.Header>
-      <Accordion.Body>
+    <div key={id}>
+      <h4>{title} - {org} ({start} - {end})</h4>
+     <div>
        
         {description.map((sentence: any) => (
           <p>{sentence}</p>
         )) }
-
+</div>
         <h6>Skills</h6>
         <ul>
           {skills.map((skills: any) => (
@@ -21,8 +21,8 @@ export default function Experience({ id, title, org, start, end, description, sk
           ))
           }
         </ul>
-      </Accordion.Body>
-      </Accordion.Item>
+      </div>
+      
       )
 }
 
